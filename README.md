@@ -1,2 +1,2 @@
-# bdfinal
-trabalho final da disciplina de banco de dados I
+# Banco de Dados I
+Projeto final da disciplina de Banco de Dados I
