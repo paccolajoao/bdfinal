@@ -25,7 +25,10 @@ namespace BDPROJETO
             i = Convert.ToInt32(textBox1.Text);
 
             FbCommand comandoSQL = new FbCommand("delete from AGENTE where CodAgente = '" + i.ToString() +"';", Database.conexao);
+            FbCommand comandoSQL2 = new FbCommand("delete from CARGA where CodAgente = '" + i.ToString() + "';", Database.conexao);
             comandoSQL.CommandType = CommandType.Text;
+            comandoSQL2.CommandType = CommandType.Text;
+            comandoSQL2.ExecuteNonQuery();
 
             if (comandoSQL.ExecuteNonQuery() > 0) // retorna o numero de linhas afetadas
             {
