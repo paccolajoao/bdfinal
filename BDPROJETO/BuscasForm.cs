@@ -25,27 +25,29 @@ namespace BDPROJETO
         {
             str = textBox1.Text.ToUpper();
 
-
             FbCommand comandoSQL = new FbCommand(str, Database.conexao);
 
             comandoSQL.CommandType = CommandType.Text;
 
             try
             {
-                comandoSQL.ExecuteNonQuery();
-                MessageBox.Show("Comando executado com sucesso!");
+
+            comandoSQL.ExecuteNonQuery();
+            MessageBox.Show("Comando executado com sucesso!");
+
             }
             catch
-            {
+             {
                 MessageBox.Show("Falha em executar comando!");
             }
 
-            dataGridView1.DataSource = null;
-
-            DataTable dt = new DataTable();
-
+            
             try
             {
+                dataGridView1.DataSource = null;
+
+                DataTable dt = new DataTable();
+
                 dt.Load(comandoSQL.ExecuteReader());
 
                 dataGridView1.DataSource = dt;

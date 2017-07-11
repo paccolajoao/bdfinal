@@ -16,7 +16,6 @@ namespace BDPROJETO
     {
         string str1,str2;
 
-        DateTime t1;
        
         
         public AddPorto()
@@ -28,15 +27,10 @@ namespace BDPROJETO
         {
 
             str1 = textBox2.Text.ToUpper();
-
-            str2 = textBox1.Text;
-
-            DateTime.TryParseExact(str2, "dd/MM/yyyy", System.Globalization.CultureInfo.InvariantCulture, System.Globalization.DateTimeStyles.None, out t1);
-
-            FbCommand comandoSQL = new FbCommand("insert into PORTO(NomePorto, DataDesembarque) values (@NomePorto, @DataDesembarque);", Database.conexao);
+          
+            FbCommand comandoSQL = new FbCommand("insert into PORTO(NomePorto) values (@NomePorto);", Database.conexao);
             comandoSQL.CommandType = CommandType.Text;
 
-            comandoSQL.Parameters.AddWithValue("@DataDesembarque", t1);
             comandoSQL.Parameters.Add("@NomePorto", str1);
             
             if (comandoSQL.ExecuteNonQuery() > 0) // retorna o numero de linhas afetadas

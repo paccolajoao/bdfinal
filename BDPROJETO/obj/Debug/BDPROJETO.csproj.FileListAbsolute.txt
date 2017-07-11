@@ -28,3 +28,34 @@ C:\Users\paccola\documents\visual studio 2017\Projects\BDPROJETO\BDPROJETO\obj\D
 C:\Users\paccola\documents\visual studio 2017\Projects\BDPROJETO\BDPROJETO\obj\Debug\BDPROJETO.RemPorto.resources
 C:\Users\paccola\documents\visual studio 2017\Projects\BDPROJETO\BDPROJETO\obj\Debug\BDPROJETO.RemTrecho.resources
 C:\Users\paccola\documents\visual studio 2017\Projects\BDPROJETO\BDPROJETO\obj\Debug\BDPROJETO.BuscasForm.resources
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\bin\Debug\BDPROJETO.exe.config
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\bin\Debug\BDPROJETO.exe
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\bin\Debug\BDPROJETO.pdb
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\bin\Debug\EntityFramework.dll
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\bin\Debug\EntityFramework.Firebird.dll
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\bin\Debug\EntityFramework.xml
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\bin\Debug\EntityFramework.Firebird.pdb
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\bin\Debug\FirebirdSql.Data.FirebirdClient.pdb
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\obj\Debug\BDPROJETO.csprojResolveAssemblyReference.cache
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\obj\Debug\BDPROJETO.AddAgente.resources
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\obj\Debug\BDPROJETO.AddCarga.resources
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\obj\Debug\BDPROJETO.AddEmbarque.resources
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\obj\Debug\BDPROJETO.AddNavio.resources
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\obj\Debug\BDPROJETO.AddPorto.resources
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\obj\Debug\BDPROJETO.AddTrecho.resources
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\obj\Debug\BDPROJETO.BuscasForm.resources
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\obj\Debug\BDPROJETO.Form1.resources
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\obj\Debug\BDPROJETO.Properties.Resources.resources
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\obj\Debug\BDPROJETO.RemAgente.resources
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\obj\Debug\BDPROJETO.RemCarga.resources
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\obj\Debug\BDPROJETO.RemEmbarque.resources
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\obj\Debug\BDPROJETO.RemNavio.resources
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\obj\Debug\BDPROJETO.RemPorto.resources
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\obj\Debug\BDPROJETO.RemTrecho.resources
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\obj\Debug\BDPROJETO.csproj.GenerateResource.Cache
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\obj\Debug\BDPROJETO.exe
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\obj\Debug\BDPROJETO.pdb
+C:\Users\Lepec\Documents\pac\bdfinal\BDPROJETO\obj\Debug\BDPROJETO.ModAgente.resources

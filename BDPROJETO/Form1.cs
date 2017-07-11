@@ -188,5 +188,11 @@ namespace BDPROJETO
             BuscasForm bus = new BuscasForm();
             bus.Show();
         }
+
+        private void aGENTEToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            ModAgente rem = new ModAgente();
+            rem.Show();
+        }
     }
 }

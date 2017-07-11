@@ -29,7 +29,7 @@ namespace BDPROJETO
             string localdb;
 
             // local onde está o arquivo do banco FDB
-            localdb = "Database=C:\\Users\\paccola\\Documents\\Visual Studio 2017\\Projects\\BDPROJETO\\MINIMUNDONAVIOS.FDB;";
+            localdb = "Database=C:\\Users\\Lepec\\Documents\\pac\\bdfinal\\MINIMUNDONAVIOS.FDB;";
 
             strConexao = "User=SYSDBA;" + "Password=masterkey;" + localdb
                 + "Port=3050;" + "Dialect=3;" + "Charset=NONE;" + "Role=;" + "Connection timeout=7;" + "Connection lifetime=0;" + "Pooling=true;"

@@ -1,0 +1,73 @@
+Navio (Nome_Navio*, Capacidade_Máxima)
+Nome_Navio = Primary Key
+
+  Navios
+	   MS Freedom
+	   8500
+
+	   Panamax
+	   6300
+
+	   jangada
+     2000
+
+Carga_Sensível_Perecível (Num_Carga*, Peso, Cod_Agente, Nome_Porto, Temperatura_Max, Validade, Data_Desembarque)
+Na ordem dos "parâmetros"
+    01    - num
+    5000  - peso
+    02    - agente
+    porto das galinhas - porto
+    80 graus    - Temperatura
+    20/08/2017  - Validade
+    17/07/20170 - Desembarque
+
+
+    02
+    1900
+    01
+    portão
+    130 graus
+    01/05/2018 - val
+    21/05/2018 - desmbrq
+
+    03
+    8300
+    02
+    porto dos navegantes
+    60 graus
+    11/07/2018 - val
+    01/06/2018
+
+
+
+Trecho_Rota (Data_Chegada*, Nome_Porto*, Nome_Navio*)
+
+    30/07/2017
+    porto das galinhas
+    Panamax
+
+    20/01/2018
+    portão
+    MS Freedom
+
+Porto (Nome_Porto*)
+    Porto dos navegantes
+    Porto das galinhas
+    portão
+
+Agente (Cod_Agente*, Nome_Agente)
+    01
+    Percyvan
+
+    02
+    Irineu
+
+    03
+    Naruto
+
+Embarque(Num_Carga*, Nome_Navio*)
+    01
+    Panamax
+
+    02
+    MS Freedom

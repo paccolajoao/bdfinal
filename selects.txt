@@ -1,0 +1,67 @@
+﻿Relatório dos navios e suas rotas, informando para cada navio:
+seu nome, sua capacidade máxima, e a relação de portos (nome do porto) de sua rota,
+com a data de chegada em cada porto destino.
+
+Select  N.NomeNavio, N.CapacidadeMAXima, R.NomePorto, R.DataChegada
+from    Navio N, Trecho R
+where   N.NomeNavio = R.NomeNavio
+
+_______________________________________________________________
+Relatório das cargas
+embarcadas, informando: número da carga, porto destino, navio, data máxima
+para desembarque da carga, e data na qual o navio vai chegar no porto.
+
+Select  C.NumCarga, C.NomePorto, E.NomeNavio, C.DataDesembarque, T.DataChegada
+from    Carga C, Embarque E, Trecho T
+where   E.NomeNavio = T.NomeNavio and
+        C.NumCarga  = E.NumCarga        // Carga embarcada
+
+_______________________________________________________________
+Relatório das cargas não embarcadas, informando: número da carga, porto destino, data
+máxima para desembarque da carga, e código do agente receptor.
+
+Select  C.NumCarga, C.NomePorto, C.DataDesembarque, C.CodAgente
+from    Carga C
+where   Not exists (Select  *
+                    from    Embarque E
+                    where   E.NumCarga = C.NumCarga)  // Não deve existir embarque par a carga C em questão
+
+_______________________________________________________________
+Relatório contendo, para cada porto, todos os navios que passarão por lá
+
+Select NomePorto, NomeNavio
+from  Trecho
+
+_______________________________________________________________
+Relatório de todas as cargas não embarcadas porque não existe navio que passe pelo porto
+destino.
+
+Select  *
+From    Carga C
+where   Not Exists (Select *
+                    From Embarque E
+                    Where E.NumCarga = C.NumCarga) and      // Carga Não embarcadaE
+        Not Exists (Select  *
+                    From    Trecho R                     // E não existe rota que passe pelo porto descrito pela carga (C.Nome_Porto)
+                    Where   R.NomePorto = C.NomePorto ) // Ou seja, não existe um navio que passe pelo porto destino
+
+______________________________________________________________
+Relatório de navios em manutenção (não possuem rota).
+
+Select  N.NomeNavio
+From    Navio N
+where   Not exists (Select *
+                    From   Trecho R
+                    where  N.NomeNavio = R.NomeNavio)
+
+
+
+_______________________________________________________________
+Relação de todos os agentes de um determinado porto, com código e nome de cada agente,
+que não estão recepcionando nenhuma carga.
+
+Select  *
+from    Agente A, Porto P
+where   Not Exists (Select *
+                    From Carga
+                    where C.NomeAgente = A.NomeAgente )   // Não há carga para aquele agente recepcionar
