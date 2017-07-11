@@ -70,6 +70,12 @@
     <Compile Include="AddCarga.Designer.cs">
       <DependentUpon>AddCarga.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddEmbarque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmbarque.Designer.cs">
+      <DependentUpon>AddEmbarque.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddNavio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +108,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddCarga.resx">
       <DependentUpon>AddCarga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEmbarque.resx">
+      <DependentUpon>AddEmbarque.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AddNavio.resx">
       <DependentUpon>AddNavio.cs</DependentUpon>

@@ -20,3 +20,4 @@ C:\Users\paccola\Documents\Visual Studio 2017\Projects\BDPROJETO\BDPROJETO\obj\D
 C:\Users\paccola\Documents\Visual Studio 2017\Projects\BDPROJETO\BDPROJETO\obj\Debug\BDPROJETO.AddNavio.resources
 C:\Users\paccola\Documents\Visual Studio 2017\Projects\BDPROJETO\BDPROJETO\obj\Debug\BDPROJETO.AddPorto.resources
 C:\Users\paccola\Documents\Visual Studio 2017\Projects\BDPROJETO\BDPROJETO\obj\Debug\BDPROJETO.AddTrecho.resources
+C:\Users\paccola\documents\visual studio 2017\Projects\BDPROJETO\BDPROJETO\obj\Debug\BDPROJETO.AddEmbarque.resources

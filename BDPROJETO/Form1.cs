@@ -29,6 +29,8 @@ namespace BDPROJETO
                 tabelasToolStripMenuItem.Visible = true;
                 adicionarToolStripMenuItem.Visible = true;
                 buscasToolStripMenuItem.Visible = true;
+                removerToolStripMenuItem.Visible = true;
+                modificarToolStripMenuItem.Visible = true;
 
                 MessageBox.Show("Conexão com o banco bem sucedida!");
             }
@@ -48,6 +50,8 @@ namespace BDPROJETO
                 tabelasToolStripMenuItem.Visible = false;
                 adicionarToolStripMenuItem.Visible = false;
                 buscasToolStripMenuItem.Visible = false;
+                removerToolStripMenuItem.Visible = false;
+                modificarToolStripMenuItem.Visible = false;
             }
             else
             {
@@ -128,6 +132,18 @@ namespace BDPROJETO
         private void tRECHOToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             AddTrecho add = new AddTrecho();
+            add.Show();
+        }
+
+        private void eMBARQUEToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            str = "EMBARQUE";
+            MostraTabela();
+        }
+
+        private void eMBARQUEToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            AddEmbarque add = new AddEmbarque();
             add.Show();
         }
     }

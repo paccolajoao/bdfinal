@@ -26,7 +26,11 @@ namespace BDPROJETO
         {
             string strConexao;
 
-            strConexao = "User=SYSDBA;" + "Password=masterkey;" + "Database=C:\\Users\\paccola\\Documents\\UNESP\\BD1\\TrabFinal\\MINIMUNDONAVIOS.FDB;"
+            string localdb;
+
+            localdb = "Database=C:\\Users\\paccola\\Documents\\Visual Studio 2017\\Projects\\BDPROJETO\\MINIMUNDONAVIOS.FDB;";
+
+            strConexao = "User=SYSDBA;" + "Password=masterkey;" + localdb
                 + "Port=3050;" + "Dialect=3;" + "Charset=NONE;" + "Role=;" + "Connection timeout=7;" + "Connection lifetime=0;" + "Pooling=true;"
                 + "Pocket Size=8192;" + "Server Type=0";
 
