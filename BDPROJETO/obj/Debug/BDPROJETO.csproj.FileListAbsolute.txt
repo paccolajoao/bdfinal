@@ -21,3 +21,10 @@ C:\Users\paccola\Documents\Visual Studio 2017\Projects\BDPROJETO\BDPROJETO\obj\D
 C:\Users\paccola\Documents\Visual Studio 2017\Projects\BDPROJETO\BDPROJETO\obj\Debug\BDPROJETO.AddPorto.resources
 C:\Users\paccola\Documents\Visual Studio 2017\Projects\BDPROJETO\BDPROJETO\obj\Debug\BDPROJETO.AddTrecho.resources
 C:\Users\paccola\documents\visual studio 2017\Projects\BDPROJETO\BDPROJETO\obj\Debug\BDPROJETO.AddEmbarque.resources
+C:\Users\paccola\documents\visual studio 2017\Projects\BDPROJETO\BDPROJETO\obj\Debug\BDPROJETO.RemAgente.resources
+C:\Users\paccola\documents\visual studio 2017\Projects\BDPROJETO\BDPROJETO\obj\Debug\BDPROJETO.RemCarga.resources
+C:\Users\paccola\documents\visual studio 2017\Projects\BDPROJETO\BDPROJETO\obj\Debug\BDPROJETO.RemEmbarque.resources
+C:\Users\paccola\documents\visual studio 2017\Projects\BDPROJETO\BDPROJETO\obj\Debug\BDPROJETO.RemNavio.resources
+C:\Users\paccola\documents\visual studio 2017\Projects\BDPROJETO\BDPROJETO\obj\Debug\BDPROJETO.RemPorto.resources
+C:\Users\paccola\documents\visual studio 2017\Projects\BDPROJETO\BDPROJETO\obj\Debug\BDPROJETO.RemTrecho.resources
+C:\Users\paccola\documents\visual studio 2017\Projects\BDPROJETO\BDPROJETO\obj\Debug\BDPROJETO.BuscasForm.resources

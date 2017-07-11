@@ -146,5 +146,47 @@ namespace BDPROJETO
             AddEmbarque add = new AddEmbarque();
             add.Show();
         }
+
+        private void aGENTEToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            RemAgente rem = new RemAgente();
+            rem.Show();
+        }
+
+        private void cARGAToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            RemCarga rem = new RemCarga();
+            rem.Show();
+        }
+
+        private void eMBARQUEToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            RemEmbarque rem = new RemEmbarque();
+            rem.Show();
+        }
+
+        private void nAVIOToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            RemNavio rem = new RemNavio();
+            rem.Show();
+        }
+
+        private void pORTOToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            RemPorto rem = new RemPorto();
+            rem.Show();
+        }
+
+        private void tRECHOToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            RemTrecho rem = new RemTrecho();
+            rem.Show();
+        }
+
+        private void buscasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            BuscasForm bus = new BuscasForm();
+            bus.Show();
+        }
     }
 }
